@@ -17,3 +17,12 @@ header {
   .container p {
     flex: 0 0 65%;
   }
+
+  .list {
+    list-style-type: none;
+    display: inline-flex;
+    padding: 10px;
+    float: right;
+  }
+
+  
