@@ -1,0 +1,19 @@
+header {
+    background-color: lavender;
+    color: darkmagenta;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .container h2 {
+    flex: 0 0 25%;
+    border-right: 5px black solid;
+  }
+
+  .container p {
+    flex: 0 0 65%;
+  }
