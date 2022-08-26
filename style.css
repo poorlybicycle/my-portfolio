@@ -1,4 +1,4 @@
-header {
+.header {
     background-color: lavender;
     color: darkmagenta;
 }
@@ -25,4 +25,56 @@ header {
     float: right;
   }
 
+  * {
+    color: darkorchid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
   
+ .header {
+  background-color: lavender;
+  border: 15px;
+  padding: 15px;
+  margin: auto;
+ }
+  
+ .nav-bar {
+  list-style-type: none;
+  display: inline;
+  padding: 15px;
+  float: right;
+  justify-content: space-between;
+ }
+  
+ .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .container h2 {
+    flex: 0 0 25%;
+    border-right: 5px solid darkorchid;
+  }
+  
+  .container p {
+    flex: 0 0 65%;
+  }
+  
+ .list {
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+    float: right;
+    justify-content: space-between;
+  }
+  
+ .container ul {
+  list-style-type: none;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  float: left;
+  padding: 10px;
+ }
+ 
